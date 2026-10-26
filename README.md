@@ -58,4 +58,6 @@ Uma funcionalidade adicional foi implementada para limitar o número de jogos (v
 *   **JavaScript:** Lógica principal do jogo, manipulação do DOM, interatividade, gerenciamento de estado e persistência de dados via `localStorage`.
 
 <img src="https://github.com/ViniFerAlbuquerque/jogo-descobrir-o-numero/blob/main/img/descubra-o-numero-responsivo.png?raw=true">
- https://viniferalbuquerque.github.io/jogo-descobrir-o-numero/
+
+[🔗Clique Aqui Para Acessar]( https://viniferalbuquerque.github.io/jogo-descobrir-o-numero/)
+
