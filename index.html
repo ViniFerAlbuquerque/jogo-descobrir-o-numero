@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Descubra o Número!</title>
+</head>
+<body>
+    <main class="game-container">
+        <section class="game-image-section">
+            <img src="./img/descubra-o-numero.jpg" alt="Ilustração de números e um ponto de interrogação, representando o jogo de adivinhação.">
+        </section>
+
+        <section class="game-content-section">
+            <h1>Jogo Descubra o Número:</h1>
+            <form id="gameForm"> 
+                <div class="input-group">
+                    <label for="inNumero" class="sr-only">Digite um número entre 1 e 100:</label>
+                    <input type="number" min="1" max="100" id="inNumero" required autofocus placeholder="Seu N°">
+                </div>
+                <div class="button-group">
+                    <button type="submit" id="btSubmit">Apostar</button>
+                    <button type="button" id="btNovo" class="oculta">Jogar Novamente</button>
+                </div>
+            </form>
+
+            <div class="game-stats">
+                <h3>Erros: <span id="outErros">0</span></h3>
+                <h3>Chances: <span id="outChances">6</span></h3>
+                <h3>Vitórias: <span id="outVitorias">0</span></h3>
+                <h3>Derrotas: <span id="outDerrotas">0</span></h3>
+                <h3 id="outDica" class="italico">Dica: É um número entre 1 e 100</h3>
+
+                <h3 id="historyTitle">Últimas Apostas: <span id="outHistoricoApostas">Nenhum</span></h3>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p>ViniFerAlbuquerque</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
